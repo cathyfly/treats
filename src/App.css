@@ -6,6 +6,11 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 /*******************Navbar*****************************/
+
+.nav{
+  z-index: 3;
+  position: sticky;
+}
 .logo{
   width: 4rem;
 }
@@ -47,4 +52,61 @@ font-weight: bolder;
   color: hotpink ;
 font-weight: bolder;
 
+}
+
+/****************HEADER***********************/
+
+.headerWrap{
+  position: relative;
+  background: url(header-bg.jpg) no-repeat ;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.mainInfo{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.mainInfo h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight:900;
+  font-size: 15vh;
+  }
+
+/***********typed text**************/
+.typedText{
+  color: hotpink;
+  font-weight: 800;
+  font-size: 15vh;
+  }
+
+/**************show me button**************/
+
+.btn-showMe{
+  border: 5px solid;
+  border-color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 0.65rem 0.75rem 0.75rem 0.75rem;
+  color: white;
+  margin-top: 2rem;
+}
+
+/**************particles**************/
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
