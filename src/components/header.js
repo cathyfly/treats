@@ -8,7 +8,7 @@ export const header = () => {
                 <h1>Find your nearest Treat</h1>
 
                 <Typed className="typedText" 
-                strings={["Treat Yourself!", "Yummmmmmmmmm", "Fancy something nice?"]} 
+                strings={["Treat Yourself!", "Let's get ice cream!", "Fancy a coffee?"]} 
                 typeSpeed={40} 
                 backSpeed={60} 
                 loop

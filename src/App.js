@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import Navbar from "./components/navbar";
 import Header from "./components/header";
+import Shops from './components/shops';
 import { Shape } from 'tsparticles/Options/Classes/Particles/Shape/Shape';
 import { circleBounce } from 'tsparticles/Utils';
 
@@ -37,6 +38,8 @@ function App() {
   />
   <Navbar/>
   <Header/>
+  <Shops/>
+  
   </>
   );
 

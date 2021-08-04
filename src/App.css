@@ -88,7 +88,7 @@ font-weight: bolder;
 .typedText{
   color: hotpink;
   font-weight: 800;
-  font-size: 15vh;
+  font-size: 5vh;
   }
 
 /**************show me button**************/
@@ -109,4 +109,11 @@ font-weight: bolder;
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+/**************Cards**************/
+
+.card{
+  border: 10px solid;
+  
 }
