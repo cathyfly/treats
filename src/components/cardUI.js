@@ -11,8 +11,8 @@ const Card = props => {
          </div>
          <h4 className="card-title">{props.title}</h4>
          <p className="card-text text-secondary" id="cardtext">{props.text}</p>
-            <a href={props.url} >{props.address}</a>
-            <p className="card-text ">{props.icon1}{props.icon2}{props.icon3}</p>
+            <a href={props.url} target="_blank">{props.address}</a>
+            <p className="card-text ">{props.icon1} {props.icon2} {props.icon3}</p>
            
             
      </div>

@@ -1,16 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
 :root{
   --primary-black: #000;
   
 }
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: white;
+    
+
+}
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link, a:hover, a:active, a:visited {
+  color: hotpink;
+}
+
+
+h1{
+  margin-top: 1rem;
+  padding-top: .125rem;
+  font-family: 'PT Serif', serif;
+  font-weight: 800;
+  font-size: 4rem;;
+  color: hotpink;
+  font-weight:bolder;
+}
+
+h4{
+
+  padding-top: .125rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  color: hotpink;
+  font-weight:bolder;
+
+}
+
+
+/*********************footer*************************/
+
+#footer{
+  position: absolute;
+  
+  height: 10vh;
+  width: 100%;
+  background-color: hotpink;
+  color: white;
+}
+
+#footer .p{
+  padding-top: 50%;
 }
 /*******************Navbar*****************************/
 
-.nav{
-  z-index: 3;
-  position: sticky;
-}
+
+
 .logo{
   width: 4rem;
 }
@@ -20,7 +68,7 @@ body{
 nav a.nav-link{
   font-weight:900;
  
-  cursor: pointer;
+  
 }
 
 nav ul li{
@@ -61,7 +109,8 @@ font-weight: bolder;
   background: url(header-bg.jpg) no-repeat ;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
+  width: 100vw;
 }
 
 .mainInfo{
@@ -82,11 +131,12 @@ font-weight: bolder;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-weight:900;
   font-size: 15vh;
+  color: black;
   }
 
 /***********typed text**************/
 .typedText{
-  color: hotpink;
+  color:black;
   font-weight: 800;
   font-size: 5vh;
   }
@@ -99,26 +149,31 @@ font-weight: bolder;
   border-radius: 0;
   text-transform: uppercase;
   padding: 0.65rem 0.75rem 0.75rem 0.75rem;
-  color: white;
+  color: white !important;
+  text-decoration: none;
   margin-top: 2rem;
 }
 
 /**************particles**************/
-.tsparticles-canvas-el{
+/**..tsparticles-canvas-el{
   position: absolute;
   height: 100vh;
   width: 100vw;
   z-index: 1;
 }
-
+*/
 /**************Cards**************/
 
 .card{
-  border: 10px solid;
+  padding: .5rem;
+  background: transparent;
+  border: none;
   
 }
 
-
+.card-body{
+  background: transparent;
+}
 
 /**************FORM**************/
 
@@ -179,20 +234,19 @@ background-color: hotpink;
 }
 
 
-/************************map marker*****************/
-.marker {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 18px;
-    height: 18px;
-    background-color: #000;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    user-select: none;
-    transform: translate(-50%, -50%);
-    z-index: 5;
-    
-  }
 
+/*********************footer*************************/
+
+#footer{
+  position: absolute;
+  
+  height: 10vh;
+  width: 100%;
+  background-color: hotpink;
+  color: white;
+}
+
+#footer .p{
+  padding-top: 50%;
+}
 
