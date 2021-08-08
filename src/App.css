@@ -117,3 +117,82 @@ font-weight: bolder;
   border: 10px solid;
   
 }
+
+
+
+/**************FORM**************/
+
+.contactUs input, .contactUs textarea{
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  border:none;
+  border-bottom: 0.125rem solid hotpink;
+  border-radius: 0;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  
+}
+
+.contactUs .container{
+  padding: 4rem 0;
+}
+
+.contactUs input:focus, .contactUs textarea:focus{
+  background: transparent;
+  color: hotpink;
+  border-bottom: 0.125rem solid hotpink;
+
+}
+
+
+.contactUs textarea{
+  height: 12.4rem !important;
+  
+}
+
+.contactUs button{
+  width: 100%;
+  margin: 1rem 0 0 0;
+  background: none;
+  border: 2px solid hotpink;
+  color: hotpink
+}
+
+.contactUs button:hover{
+color: white;
+background-color: hotpink;
+}
+
+/**************FORM MEDIA QUERIES**************/
+
+@media(max-width:768px) {
+  .contactUs .container{
+    padding: 1rem 0;
+    overflow-x: hidden;
+  }
+
+    .contactUs p{
+    padding: 0 1rem;
+  }
+}
+
+
+/************************map marker*****************/
+.marker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    user-select: none;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    
+  }
+
+

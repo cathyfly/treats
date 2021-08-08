@@ -9,6 +9,7 @@ import { Shape } from 'tsparticles/Options/Classes/Particles/Shape/Shape';
 import { circleBounce } from 'tsparticles/Utils';
 import Shopsheader from './components/shopsheader';
 import Map from "./components/map";
+import ContactUs from './components/conatctUs'
 
 
 
@@ -43,6 +44,7 @@ function App() {
   <Shopsheader/>
   <Shops/>
   <Map/>
+  <ContactUs/>
   
   </>
   );
