@@ -105,6 +105,7 @@ font-weight: bolder;
 /****************HEADER***********************/
 
 .headerWrap{
+  margin-top: 10vh;
   position: relative;
   background: url(header-bg.jpg) no-repeat ;
   background-size: cover;

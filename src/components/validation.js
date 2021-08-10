@@ -1,9 +1,12 @@
+/*https://www.youtube.com/watch?v=WvRwiE9IkFg&ab_channel=Code%26Coding*/
+/*form vaildation tutoriral referenced*/
+
 const validation = (values) => {
     let errors={};
     
 
     if(!values.fname){
-        errors.fname="Please enter your name"
+        errors.name="Please enter your name"
     }
 
     if (!values.email) {

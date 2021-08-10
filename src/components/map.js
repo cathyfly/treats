@@ -1,3 +1,6 @@
+/*--tutorial referenced https://youtu.be/Pf7g32CwX_s*--*/
+/*--reference https://www.mindbowser.com/react-google-map-with-a-custom-pin-marker/*---*/
+
 import React from 'react'
 import { GoogleMap, Marker } from 'react-google-maps';
 import withGoogleMap from 'react-google-maps/lib/withGoogleMap';
@@ -110,6 +113,8 @@ function Map() {
                     }}
 
                     
+
+
                     label={"Cafe Bombo"}
                     position={{
                     lat: 53.34299090354903,
