@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import latlang from 'react-geolocated';
 
 
 const Card = props => {
@@ -9,9 +10,11 @@ const Card = props => {
              <img src={props.imgsrc} alt="picture of a delicious treat" className="card-img-top"/>
          </div>
          <h4 className="card-title">{props.title}</h4>
-         <p className="card-text text-secondary">{props.text}</p>
-         <p className="card-text text-secondary">{props.distance}</p>
-            <p className="card-text text-secondary">{props.icons}</p>
+         <p className="card-text text-secondary" id="cardtext">{props.text}</p>
+            <a href={props.url} target="_blank">{props.address}</a>
+            <p className="card-text ">{props.icon1} {props.icon2} {props.icon3}</p>
+           
+            
      </div>
     )
 }
